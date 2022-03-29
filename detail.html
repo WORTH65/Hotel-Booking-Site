@@ -12,14 +12,38 @@
         <div class="main-wrapper">
             
             <header>
-                <img style="height: 100px;" src="assets/images/logo.png" alt="The Hotel Logo">
-                <a href="login.html" target="_blank">Login</a>
+                <a href="index.html"><img style="height: 100px;" src="assets/images/logo.png" alt="The Hotel Logo"></a>
+                <a href="login.html">Login</a>
             </header>
 
             <div class="main">
 
                 <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Raddison Blu Hotel"><br>
-                <a href="payment.html">Book Now</a>
+                
+                <form action="payment.html" method="get">
+                    <div class="form-item">
+                        <label for="adults">Adults:</label>
+                        <input type="number" id="adults" name="adults" min="1" required>
+                    </div>
+                    <div class="form-item">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-item">
+                        <label for="from">From Date:</label>
+                        <input type="date" id="from" name="from" required>
+                    </div>
+                    <div class="form-item">
+                        <label for="to">To Date:</label>
+                        <input type="date" id="to" name="to" required>
+                    </div>
+                    <div class="form-item">
+                        <label for="total">Total:</label>
+                        <input type="text" id="total" name="total" readonly>
+                    </div>
+                    <input type="submit" value="Book Now">
+                </form>
+
                 <h2>Radisson Blu Hotel</h2>
                 <p>RATING</p>
                 <p>5 Star</p>
@@ -37,7 +61,7 @@
             </div>
 
             <footer>
-                <a href="contact.html" target="_blank">Contact Us</a>
+                <a href="contact.html">Contact Us</a>
                 <div class="socials">
                     <a href="https://www.facebook.com/"><img src="assets/images/facebook.png" alt="Facebook Logo"></a>
                     <a href="https://www.instagram.com/"><img src="assets/images/instagram.png" alt="Instagram Logo"></a>
