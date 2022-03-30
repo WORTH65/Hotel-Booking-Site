@@ -40,6 +40,13 @@ footer p {
 	align-self: flex-end;
 }
 
+@media only screen and (max-width: 900px) {
+
+	.city-card-item {
+		flex: 1 0 30%;
+	}
+}
+
 .form-item {
 	margin: 4% 8%;
 	display: flex;
@@ -51,7 +58,7 @@ footer p {
 	height: 380px;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
