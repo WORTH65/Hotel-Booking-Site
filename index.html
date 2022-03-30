@@ -60,7 +60,8 @@
                 </div>
 
         <div class="main-wrapper">
-
+            
+            <!-- Header section with required functionality -->
             <header>
                 <img style="height: 60px;" src="assets/images/logo.png" alt="The Hotel Logo">
 
@@ -70,14 +71,22 @@
 
             </header>
 
+            <!-- Main Content -->
+
             <div class="main">
+
+                <!-- Search with it's background -->
                 <div class="search">
                     <input type="text" id="search" placeholder="City">
                 </div>
 
+                <!-- City cards Flex-box -->
                 <div class="city-cards">
                     <div class="city-card-item">
+                        <!-- card-content is shown by default -->
                         <div class="card-content" style="background-image:url('https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg');"></div>
+
+                        <!-- Overlay class is shown on :hover -->
                         <div class="overlay" style="display: none; background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg');"><a href="list.html">Delhi</a></div>
                     </div>
                     <div class="city-card-item">
@@ -95,10 +104,13 @@
                 </div>
 
             </div>
+
+            <!-- View more button centered with flexbox -->
             <div class="view-more">
                 <a href="#" id="view-more"><button type="button" class="btn btn-secondary">View More</button></a>
             </div>
 
+            <!-- Footer section with the required functionality -->
             <footer>
                 <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#contact-modal" style="color: #f4f4f4;">
                   Contact Us
