@@ -71,6 +71,10 @@ footer p {
 	height: 100%;
 }
 
+.main {
+	padding: 60px 0 120px 0;
+}
+
 .view-more{
 	display: flex;
 	justify-content: center;
